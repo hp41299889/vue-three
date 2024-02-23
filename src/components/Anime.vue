@@ -30,7 +30,7 @@ const init = () => {
   }
 
   const loader = new SVGLoader();
-  loader.load("src/assets/line1.svg", (data) => {
+  loader.load("/line1.svg", (data) => {
     line1.scale.multiplyScalar(0.25);
     line1.position.x = -15;
     line1.position.y = 30;
